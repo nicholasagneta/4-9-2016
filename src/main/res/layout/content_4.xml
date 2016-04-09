@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000"
+    tools:context="com.example.nicholas.myapplication01.MainActivity">
+
+    <ImageView
+        android:id="@+id/image"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="center"
+        android:src="@drawable/background" />
+
+    <TextView
+        android:text="Tennis Time!"
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
+        android:textSize="40sp"
+        android:fontFamily="sans-serif-light"
+        android:textColor="#FFFFFF"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:id="@+id/textView" />
+
+    <TextView
+        android:text="Types of Courts"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:textSize="28sp"
+        android:fontFamily="sans-serif-light"
+        android:textColor="#FFFFFF"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="60dp"
+        android:layout_marginLeft="10dp"
+        android:id="@+id/textView" />
+
+    <TextView
+        android:text="        There are a variety of different courts to use for tennis play both inside and outside.
+
+        They include but are not limited to: clay, asphalt, and grass.
+
+        Each type has a different feel so try each one out for yourself!"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:textSize="20sp"
+        android:fontFamily="sans-serif-light"
+        android:textColor="#FFFFFF"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="130dp"
+        android:layout_marginLeft="10dp"
+        android:id="@+id/textView" />
+
+</RelativeLayout>

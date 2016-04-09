@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000"
+    tools:context="com.example.nicholas.myapplication01.MainActivity">
+
+    <ImageView
+        android:id="@+id/image"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="center"
+        android:src="@drawable/background" />
+
+    <TextView
+        android:text="Tennis Time!"
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
+        android:textSize="40sp"
+        android:fontFamily="sans-serif-light"
+        android:textColor="#FFFFFF"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:id="@+id/textView" />
+
+    <TextView
+        android:text="Scoring"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:textSize="30sp"
+        android:fontFamily="sans-serif-light"
+        android:textColor="#FFFFFF"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="60dp"
+        android:layout_marginLeft="10dp"
+        android:id="@+id/textView" />
+
+    <TextView
+        android:text="        Points are added not by 1's but by 15 for the first two points and 10 for the third.
+
+        If both oppontents get to 40 then the match goes to a 'duece' - First to win by two points wins the game.
+
+        Matches are played as best of 3 or 5 sets. Sets are composed of best of 6 games.
+
+        Unless both teams get to 6 games each in which case a tie-breaker usually occurs. The rules for a tie-breaker are are not like a normal game, first to 10 points (win by 2) wins."
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:textSize="20sp"
+        android:fontFamily="sans-serif-light"
+        android:textColor="#FFFFFF"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="130dp"
+        android:layout_marginLeft="10dp"
+        android:id="@+id/textView" />
+
+</RelativeLayout>
